@@ -1,0 +1,18 @@
+syntax = 'proto3';
+package store.v1;
+
+import "google/protobuf/empty.proto";
+message Put {}
+service DataService {
+  rpc Put(PutDataOperation) returns (PutDataResponse);
+}
+service ObjectService {
+  rpc PutHead(PutHeadOperation) returns (google.protobuf.Empty);
+}
+
+service JournalService {
+  rpc Append(AppendOperation) returns (AppendResult);
+  rpc Forward(ForwardOperation) returns (ForwardResult);
+  rpc Merge(MergeOperation) returns (MergeResult);
+
+}

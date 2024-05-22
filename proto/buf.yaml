@@ -1,0 +1,12 @@
+version: v1
+breaking:
+  use:
+    - FILE
+lint:
+  use:
+    - DEFAULT
+  allow_comment_ignores: true
+#deps:
+#  - buf.build/bufbuild/buf
+#  - buf.build/bufbuild/protovalidate
+#  - buf.build/protocolbuffers/wellknowntypes

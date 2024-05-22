@@ -1,0 +1,21 @@
+//
+syntax = 'proto3';
+
+service DataMutation {
+  // Put
+  // PutAll
+  // Delete
+  // DeleteAll
+  // Batch
+  // Begin
+  // Commit
+}
+
+service DataProjection {
+  // Begin
+  // Get
+  // GetAll
+  // Commit
+}
+
+
