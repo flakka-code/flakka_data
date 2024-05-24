@@ -13,6 +13,7 @@ dependencies:
       url: https://github.com/SandroMaglione/fpdart
       ref: effect-refactor
       path: packages/fpdart
+  meta: ^1.15.0
   objectbox: ^2.5.1
   path: ^1.9.0
   uuid: ^4.4.0
